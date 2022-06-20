@@ -3,7 +3,7 @@ from transformers import AutoTokenizer, AutoModel
 # from sklearn.metrics.pairwise import cosine_similarity
 import torch
 
-runNumber = 9
+runNumber = 10
 df_movie = pd.read_csv(str(runNumber)+'.csv')
 df_movie = df_movie[df_movie['type'] == 'Movie']
 # df_movie.describe(include='all')
